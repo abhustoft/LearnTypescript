@@ -1,0 +1,18 @@
+{
+  "name": "learntypescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "node --inspect dist/",
+    "build": "npx tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^9.4.6",
+    "express": "^4.16.2",
+    "typescript": "^2.7.2"
+  }
+}
